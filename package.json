@@ -1,0 +1,30 @@
+{
+  "name": "roots-yell",
+  "version": "0.0.0",
+  "author": "Carrot Creative <dev@carrotcreative.com>",
+  "description": "a sample roots extension for v3",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carrot/roots-yell.git"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "coffee-script": "1.x.x"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "roots": "3.x",
+    "rimraf": "*",
+    "glob": "*",
+    "when": "2.x",
+    "path": "0.4.x"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
